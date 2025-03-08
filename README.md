@@ -116,3 +116,7 @@ Building this project provided hands-on experience with several key aspects of S
 - Building responsive UIs for blockchain applications
 - Handling blockchain events and state updates
 - Working with Sui JSON-RPC API through dapp Kit for blockchain data retrieval and interaction
+- Building complex transactions using Programmable Transaction Blocks (PTBs) for operations like:
+  - Merging coins
+  - Splitting coins
+  - Combining multiple operations in a single transaction
