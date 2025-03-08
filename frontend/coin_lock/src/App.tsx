@@ -7,27 +7,23 @@ import CoinLock from "./CoinLock";
 function App() {
   return (
     <>
-      <Flex
-        position="sticky"
-        px="4"
-        py="2"
-        justify="between"
-        style={{
-          borderBottom: "1px solid var(--gray-a2)",
-        }}
-      >
-        <Box>
-          <Heading>CoinLock</Heading>
-        </Box>
+      <Container position="sticky" py="4" style={{
+        borderBottom: "1px solid var(--gray-a2)",
+      }}>
+        <Container>
+          <Flex justify="between" align="center"><Box>
+            <Heading>CoinLock</Heading>
+          </Box>
 
-        <Box>
-          <ConnectButton />
-        </Box>
-      </Flex>
+            <Box>
+              <ConnectButton />
+            </Box></Flex>
+        </Container>
+      </Container>
 
       <Container>
         <Container
-          mt="5"
+          mt="3"
           pt="2"
           px="4"
           style={{ background: "var(--gray-a2)", minHeight: 500 }}
